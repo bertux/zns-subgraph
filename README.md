@@ -33,6 +33,11 @@
     ```
 
 5. Check errors and result:
+    + Check graph-node logs for the ID generated at the end of deployment:
+
+    ```bash
+    docker compose logs -f --since 3m graph-node | grep Qmd8QduDfxfEBLGsWciqdLEzZwCn4iowWapxWaYoXEyGEz
+    ```
 
     + Connect to subgraph playground and check current state of deployed subgraph by querying the metadata
 
