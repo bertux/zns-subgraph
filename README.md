@@ -23,13 +23,13 @@
 3. Create subgraph on graph-node
 
     ```bash
-    yarn create
+    yarn run create
     ```
 
 4. Deploy subgraph to local graph-node
 
     ```bash
-    yarn deploy
+    yarn run deploy
     ```
 
 5. Check errors and result:
