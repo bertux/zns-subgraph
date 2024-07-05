@@ -6,7 +6,7 @@
     "build": "graph build",
     "create": "graph create --node http://localhost:8020/ arthera/zns-subgraph",
     "remove": "graph remove --node http://localhost:8020/ arthera/zns-subgraph",
-    "deploy": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 arthera/zns-subgraph",
+    "deploy": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 arthera/zns-subgraph --network mainnet --version-label 0.0.1",
     "test": "graph test"
   },
   "dependencies": {
