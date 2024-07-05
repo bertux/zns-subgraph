@@ -4,11 +4,11 @@ schema:
 dataSources:
   - kind: ethereum
     name: ZNSRegistry
-    network: polygon-mainnet
+    network: mainnet
     source:
       abi: ZNSRegistry
-      address: "0x8ccD9c0A9C084412416A85Fd748c7f1E9b86442D"
-      startBlock: 57614829
+      address: "0x47D3EbdD10DCd834289484DeD9BfddFdE410b419"
+      startBlock: 5889149
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.7
